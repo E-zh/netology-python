@@ -11,3 +11,5 @@
 * [Home Work 5](NetologyHomeWork05.py)
 * [Home Work 6](NetologyHomeWork06.py)
 * [Home Work 7](NetologyHomeWork07.py)
+* [Home Work 8](NetologyHomeWork08.py)
+

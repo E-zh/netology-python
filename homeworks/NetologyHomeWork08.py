@@ -28,7 +28,7 @@ cook_book = {
 
 
 def read_cookbook():
-    file_path = os.path.join(os.getcwd(), 'recipes.txt')
+    file_path = os.path.join(os.getcwd(), '../recipes.txt')
     cook_book = {}
     with open(file_path, 'r', encoding='utf-8') as f:
         for line in f:
@@ -104,7 +104,7 @@ def rewrite_file(path1=None, path2=None, path3=None):
         path1 = '1.txt'
         path2 = '2.txt'
         path3 = '3.txt'
-        os.chdir('sorted')
+        os.chdir('../sorted')
         outout_file = "rewrite_file.txt"
         file1_path = os.path.join(os.getcwd(), path1)
         file2_path = os.path.join(os.getcwd(), path2)
@@ -168,7 +168,7 @@ def rewrite_file(path1=None, path2=None, path3=None):
 
 
 if __name__ == '__main__':
-    filename = "recipes.txt"
+    filename = "../recipes.txt"
     cook_book = read_cookbook()
     print('Задание 1------------------------------------------------------------')
     time.sleep(1)
